@@ -3,7 +3,7 @@ import "./Container.css";
 import Card from "../../__molecule/Card/Card";
 import Pizza from "../../../assets/Images/Pizza.png";
 import Tortelini from "../../../assets/Images/Tortelini.jpg";
-import Cake from "../../../assets/Images/Cake.png";
+import Cake from "../../../assets/Images/cake.png";
 import Fire from "../../../assets/Images/fire.png";
 import Wheat from "../../../assets/Images/Wheat.png";
 import Leaf from "../../../assets/Images/Organic.png";
