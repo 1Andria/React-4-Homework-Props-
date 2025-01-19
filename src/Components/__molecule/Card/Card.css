@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=DM+Serif+Display:ital@0;1&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.card_div{
+    width: 355px;
+    height: 528px;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.food{
+    color: var(--Heading-text, #081F32);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    letter-spacing: 0.24px;
+}
+.images{
+    display: flex;
+    gap: 9px;
+}
+.description{
+    color: var(--Additional-text, #6E798C);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+}
