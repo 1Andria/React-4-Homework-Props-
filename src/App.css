@@ -12,3 +12,15 @@
   background: #EEE;
   
 }
+@media (max-width:1190px) {
+  #root{
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width:425px) {
+  #root{
+    border: none;
+  }
+}
